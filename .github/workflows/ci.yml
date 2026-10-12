@@ -23,7 +23,7 @@ jobs:
       - name: Checkout Sibling Code
         uses: actions/checkout@v4
         with:
-          repository: sphinx-pipelines/sphinx-split-project
+          repository: sphinx-playground/sphinx-split-project
           path: sphinx-split-project
 
       # 3. Provide a clean, predictable Python execution environment:
