@@ -1,4 +1,4 @@
-# sphinx-split-sphinx
+# sphinx-split-host
 
 This is a stand-alone Sphinx repository that's part of a decoupled split-repository framework. It serves as the documentation-pipeline repository for its companion [sphinx-split-project](https://github.com/sphinx-playground/sphinx-split-project) target repository.
 
@@ -10,7 +10,7 @@ This is a stand-alone Sphinx repository that's part of a decoupled split-reposit
 ## Repository layout
 
 ```text
-sphinx-split-sphinx/
+sphinx-split-host/
 ├── .github/                      # Directory for GitHub
 │   └── workflows/                # Directory for GitHub workflows
 │       └── ci.yml                # Advanced split-path CI pipeline
