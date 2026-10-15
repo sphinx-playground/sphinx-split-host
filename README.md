@@ -1,11 +1,11 @@
 # sphinx-split-sphinx
 
-This is a stand-alone Sphinx repository that's part of a decoupled duo-repository framework and that serves as the documentation-pipeline repository for its companion isolated source target.
+This is a stand-alone Sphinx repository that's part of a decoupled split-repository framework. It serves as the documentation-pipeline repository for its companion isolated source target, which is the [sphinx-split-project](https://github.com/sphinx-playground/sphinx-split-project) repository.
 
 ## Demonstrated features
 
-* **Cross-Repository Commits**: Designed to absorb distributed feature updates across decoupled environments.
-* **Absolute Configurations**: Utilizes explicit external routing to target and pull source material across Git boundaries.
+* **Cross-repository commits**: Designed to absorb distributed feature-updates across decoupled environments.
+* **Absolute configurations**: Uses external routing to target and pull source-material across Git boundaries.
 
 ## Repository layout
 
