@@ -1,6 +1,6 @@
 # sphinx-split-sphinx
 
-This is a stand-alone Sphinx repository that's part of a decoupled split-repository framework. It serves as the documentation-pipeline repository for its companion isolated source target, which is the [sphinx-split-project](https://github.com/sphinx-playground/sphinx-split-project) repository.
+This is a stand-alone Sphinx repository that's part of a decoupled split-repository framework. It serves as the documentation-pipeline repository for its companion [sphinx-split-project](https://github.com/sphinx-playground/sphinx-split-project) target repository.
 
 ## Demonstrated features
 
