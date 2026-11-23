@@ -41,7 +41,7 @@ jobs:
       # 5. Compile documentation by pointing to the sibling code folder path:
       - name: Compile Sphinx Documentation
         run: |
-          export PYTHONPATH="${PYTHONPATH}:${GITHUB_WORKSPACE}/sphinx-split-sphinx"
+          export PYTHONPATH="${PYTHONPATH}:${GITHUB_WORKSPACE}/sphinx-split-guest"
           sphinx-build -b html sphinx sphinx/_build/html
 
       # 6. Securely package the static HTML folder as a native website asset:
